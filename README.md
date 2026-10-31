@@ -1,8 +1,10 @@
-# LBJReceiver
+# GP2015W_LBJ_Receiver
 
-基于 HC32L176 和 Si4463 的手表式 LBJ 接收机固件，包含 POCSAG 解码、列车信息显示、按键菜单、低功耗关机和后盖串口升级。
+用于 **GP2015W 手表式接收机**的 LBJ 固件，基于该设备的 HC32L176、Si4463、屏幕及板级接线实现，包含 POCSAG 解码、列车信息显示、按键菜单、低功耗关机和后盖串口升级。
 
-当前工程版本：**0.1.0**，以 [VERSION](VERSION) 为准。每次版本更新同步维护中文 [CHANGELOG.md](CHANGELOG.md)，Git 提交说明使用中文；明确发布时再创建版本标签和 GitHub Release。
+本工程针对 GP2015W 当前已核对的硬件，不能直接用于任意 HC32L176 + Si4463 开发板；其他板型需要重新适配引脚、屏幕、电源和射频配置。
+
+当前工程版本：**0.1.1**，以 [VERSION](VERSION) 为准。每次版本更新同步维护中文 [CHANGELOG.md](CHANGELOG.md)，Git 提交说明使用中文；明确发布时再创建版本标签和 GitHub Release。
 
 ## 硬件与功能
 
