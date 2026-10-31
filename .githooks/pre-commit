@@ -1,0 +1,2 @@
+#!/bin/sh
+exec "${LBJ_PYTHON:-python}" tools/audit_repository.py --staged
